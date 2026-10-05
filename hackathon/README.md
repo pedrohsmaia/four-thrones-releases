@@ -15,7 +15,7 @@ Submission portal: https://activity.tripo3d.ai/en/submit (sign in with the Tripo
 | SUBMISSION.md | The texts for the form, the secondary-development declaration, the three decisions Pedro owns, the checklist |
 | VIDEO_SCRIPT.md | The 1 to 2 minute walkthrough: shot list, voiceover, recording checklist |
 | TRIPO_USAGE.md | The tool-track evidence: pipeline, shipped assets, generation batches |
-| board/ | The visual asset board: world and HUD stills (1600 x 900 and 1920 x 1080 JPG) and building turntables (GIF) |
+| board/ | The visual asset board: world and HUD stills (1600 x 900 and 1920 x 1080 JPG) and the multi-view sheet of the shipped units (2560 x 1440); the eight to upload are listed in SUBMISSION.md |
 | increment-commits.txt | Every commit since the submission window opened (the "work increment" judges score) |
 
 ## State on 2026-10-04

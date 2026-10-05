@@ -48,8 +48,16 @@ The world was built with Tripo. Every faction building and every unit mesh came 
 ## Step 3, Media and Demo
 
 - **Cover:** `hackathon/cover.jpg` (1920 x 1080, 0.5 MB). The shipped models themselves, rendered from their VAT clip sets with the in-game material (Editor/CoverRender.cs, transparent background): Elderroot, the Ashcrown Pyre Titan mid-swing, the Cannon Siege Tower, the Blight Bombard, Aldric with the sword raised, Vulmar airborne; over the plaza render, with the title, the one-line pitch and the four crests (the gift line is not on the image, Pedro 2026-10-05; it stays in the tagline, the description and the video). Pedro's rule for this image: the units as they are in the game, not their paintings. Composed by `scratchpad/cover/make_cover_v3.py` (session scratch).
-- **Stills:** the rest of `hackathon/board/` (world overview, harbour, corner, HUD in play,
-  fortress and hero selections, scoreboard, victory) and the building turntable GIFs.
+- **Visual asset board (the form takes 3 to 8, upload these 8 in this order):**
+  1. `hackathon/cover.jpg`: key art, the shipped models over the plaza (1920 x 1080).
+  2. `hackathon/board/01_world_overview.jpg`: environment, the whole map from above (1600 x 900).
+  3. `hackathon/board/02_plaza_centre.jpg`: environment, the central plaza at gameplay zoom (1600 x 900).
+  4. `hackathon/board/03_harbour.jpg`: environment, the harbour arm with the ship and the pier (1600 x 900).
+  5. `hackathon/board/10_hud_in_play.jpg`: key frame, a match in play with the HUD (1920 x 1080).
+  6. `hackathon/board/12_hud_hero_selected.jpg`: key frame, a hero selected, its card and skills (1920 x 1080).
+  7. `hackathon/board/14_victory.jpg`: key frame, the end of a match (1920 x 1080).
+  8. `hackathon/board/06_units_multiview.jpg`: multi-view, the four unique units and four heroes from two angles, rendered from the shipped models (2560 x 1440).
+  Spares in `hackathon/board/`: the corner and south-edge environment frames, the fortress selection, the scoreboard, the title screen. There are no turntable GIFs.
 - **Video:** the walkthrough link [URL] (VIDEO_SCRIPT.md).
 - **Demo:** the playable builds (Windows x64 and macOS zips):
   https://github.com/pedrohsmaia/four-thrones-releases/releases/tag/v0.1.0-build37
@@ -109,7 +117,7 @@ Run the checklist below, submit, and revise until the deadline if anything chang
 - [ ] Participation form done; signed in at https://activity.tripo3d.ai/en/submit; Games track; tool track Tripo.
 - [ ] The release published at its public home (never the source repository); the link opens in a private window.
 - [ ] Video 1 to 2 minutes, uploaded, link works.
-- [ ] Visual asset board: at least three images attached or linked (hackathon/board has eleven stills and four turntables).
+- [ ] Visual asset board: the eight images listed in the Media step, in that order (hackathon/board holds twelve stills; no GIFs).
 - [ ] Secondary development declaration pasted.
 - [x] Gift line in the tagline, the description and the video script.
 - [ ] Submitted before October 5, 23:59 AoE (October 6, 08:59 in Brasilia); revise later if needed.
