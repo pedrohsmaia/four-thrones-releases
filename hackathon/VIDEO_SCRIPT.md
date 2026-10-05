@@ -27,41 +27,46 @@ a shot: judges must see the features working, not a montage.
   (unlisted) or Drive and paste the link.
 
 
-## As produced, 2026-10-05: `hackathon/video/walkthrough.mp4` (1:45, 1920 x 1080, 30 fps, voiceover)
+## As produced, 2026-10-05 (second cut): `hackathon/video/walkthrough.mp4` (1:51, 1920 x 1080, 30 fps, voiceover)
+
+Pedro's notes on the first cut: no multiplayer section, no "deterministic simulation" line, and no
+"hand-painted" claim (the textures come from Nano Banana); after the factions, explain how the game
+works in simple words: the map and the bases, the win condition, upgrades, units and heroes.
 
 Not recorded by hand: the player records it. `FourThrones.exe -ft-walkthrough <dir>` (WalkthroughRecorder.cs)
-plays the title over the backdrop war, the Multiplayer and Create Room screens, Match Setup with the faction
-card changing, then a match with every seat a Hard bot while the camera follows a script: the base at 30
-seconds, the first wave down the lane, the first hero (selected, its card on the bar), the fortress and its
-spells, the superweapon (the runner's dev free-fire switch arms seat 0's so it fires on camera), and the
-whole map from above. Frames are JPGs at 30 frames per second of game time; `make_walkthrough.py` lays the
-seven voiceover lines (edge-tts, Christopher) at their shots and muxes the MP4. The game's own sound is not
-in the video; the narration is the only audio.
+plays the title over the backdrop war and Match Setup with the faction card changing, then starts a match
+with every seat a Hard bot while the camera follows a script: the whole map from above, down into the
+player's base, the fortress and barracks cards, the first wave down the lane, the first hero (selected),
+the superweapon (the runner's dev free-fire switch arms seat 0's so it fires on camera), and the map from
+above again. Frames are JPGs at 30 frames per second of game time; `make_walkthrough.py` lays the nine
+voiceover lines (edge-tts, Christopher) at their shots and muxes the MP4. The game's own sound is not in the
+video; the narration is the only audio.
 
 | Shot | Time |
 |---|---|
-| title | 0.0 to 9.5 s |
-| multiplayer | 9.5 to 18.5 s |
-| createroom | 18.5 to 26.5 s |
-| setup | 26.5 to 29.5 s |
-| setup_cycle1 | 29.5 to 32.5 s |
-| setup_cycle2 | 32.5 to 35.5 s |
-| setup_cycle0 | 35.5 to 39.5 s |
-| setup_diff | 39.5 to 41.5 s |
-| base | 41.5 to 46.5 s |
-| base_pan | 46.5 to 53.5 s |
-| lane | 53.5 to 61.5 s |
-| hero | 61.5 to 73.5 s |
-| fortress | 73.5 to 81.5 s |
-| super | 81.5 to 95.5 s |
-| overview | 95.5 to 105.5 s |
+| title | 0.0 to 9.0 s |
+| setup | 9.0 to 12.0 s |
+| setup_cycle1 | 12.0 to 15.0 s |
+| setup_cycle2 | 15.0 to 18.0 s |
+| setup_cycle0 | 18.0 to 21.0 s |
+| setup_diff | 21.0 to 23.0 s |
+| map | 23.0 to 35.0 s |
+| base | 35.0 to 49.0 s |
+| upgrades_fortress | 49.0 to 55.0 s |
+| upgrades_barracks | 55.0 to 61.0 s |
+| lane | 61.0 to 73.0 s |
+| hero | 73.0 to 85.0 s |
+| super | 85.0 to 99.0 s |
+| end | 99.0 to 110.0 s |
 
 | Line | Narration |
 |---|---|
 | title | This is Four Thrones, a four-player free-for-all auto-battler. My gift for RTS and auto-battler fans. |
-| multiplayer | Play against bots, or online. Multiplayer runs on a dedicated referee server: create a public or private room, add bots to the empty seats, share the room code with friends, and the server runs the same simulation for everyone. |
 | setup | In Match Setup you pick your faction and the bots' difficulty. Four factions, each with its own engine. The card shows the passive, the three heroes, the unique unit and the superweapon. |
-| base | You build and upgrade; your army marches and fights on its own. Every match is one deterministic simulation: the same seed and the same commands give the same war, so replays, saves and multiplayer are one mechanism. |
-| hero | Heroes are hired at the fortress and level up in the lane. Fortress spells spend the fortress's own mana. Everything in the world, from the buildings to the units, was modelled with Tripo and painted by hand. |
-| super | At fortress level three each faction unlocks its superweapon. Time it right, and it ends a base. |
-| overview | Four thrones on the corners of one map, one left standing. Thank you for playing. |
+| map | Four thrones, one on each corner. Lanes connect them through the plaza in the middle. Destroy the other three fortresses, and the last throne standing wins. |
+| base | This is your base: the fortress in the middle, the barracks around it, towers on the flanks. Gold comes in over time; what you upgrade, and when, is the whole game. |
+| upgrades | Upgrade a barracks and its waves get stronger. Upgrade the fortress and it unlocks higher barracks levels, your unique unit, and at level three, the superweapon. |
+| lane | The barracks send their waves down the lanes on their own. There is no micro: the army does the fighting while you build. |
+| hero | Heroes are hired at the fortress. They walk the lanes, level up and cast their skills. Lose one, and it comes back after a while. |
+| super | Each faction also has a unique unit and a superweapon. Time the superweapon right, and it ends a base. |
+| end | Buildings, units and props were modelled with Tripo and textured with Nano Banana. Four thrones, one left standing. Thank you for playing. |

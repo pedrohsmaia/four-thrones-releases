@@ -9,7 +9,7 @@ A four-player free-for-all auto-battler RTS in the Survival Chaos lineage: you b
 
 ### Walkthrough
 
-`walkthrough.mp4` (1:45, 1080p, narrated) is attached to this release: the menus, a match with four Hard bots on a scripted camera, a hero, a fortress spell, a superweapon, the whole map.
+`walkthrough.mp4` (1:51, 1080p, narrated) is attached to this release: the factions, the map and the bases, how upgrades, units and heroes work, a superweapon, the whole map.
 
 ### Playing
 
