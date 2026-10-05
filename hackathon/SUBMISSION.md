@@ -56,7 +56,7 @@ The world was built with Tripo. Every faction building and every unit mesh came 
   5. `hackathon/board/10_hud_in_play.jpg`: key frame, a match in play with the HUD (1920 x 1080).
   6. `hackathon/board/12_hud_hero_selected.jpg`: key frame, a hero selected, its card and skills (1920 x 1080).
   7. `hackathon/board/14_victory.jpg`: key frame, the end of a match (1920 x 1080).
-  8. `hackathon/board/06_units_multiview.jpg`: multi-view, the four unique units and four heroes from two angles, rendered from the shipped models (2560 x 1440).
+  8. `hackathon/board/06_units_multiview.jpg`: multi-view, the four unique units and four heroes from two angles, rendered from the shipped models (2560 x 2720, two units per row at full height).
   Spares in `hackathon/board/`: the corner and south-edge environment frames, the fortress selection, the scoreboard, the title screen. There are no turntable GIFs.
 - **Video:** the walkthrough link [URL] (VIDEO_SCRIPT.md).
 - **Demo:** the playable builds (Windows x64 and macOS zips):
