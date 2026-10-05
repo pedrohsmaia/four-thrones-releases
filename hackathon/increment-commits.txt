@@ -1,0 +1,199 @@
+2026-10-04 4dfdbb3 chore(balance): the regeneration builds its variants from the build-36 sim
+2026-10-04 51cf524 chore(editor): the batch verify exports the wiki too
+2026-10-04 e0eb64e fix(map): the plaza ring overlay is gone
+2026-10-04 01df32f feat(sim): the adjusted balance patch, build 37
+2026-10-04 1b45308 chore(build): the Addressables link.xml the content build writes
+2026-10-04 77fcf98 chore(build): the macOS Addressables content state; the Board card records the -nographics cause and the passing self-check
+2026-10-04 f0d9333 chore(build): Addressables content state after the first passing Windows build
+2026-10-04 017f5dc fix(build): the self-check waits for the first wave and names what failed; builds refuse a -nographics Editor
+2026-10-04 9bf8558 feat(build): the player self-check and the build checks catch invisible units at build time
+2026-10-04 d5500bf chore(balance): the suite's raw runs move to BalanceRuns/, outside Temp/; regen.ps1 rebuilds the runs Unity's Temp wipe destroyed
+2026-10-04 bb90ba8 chore(build): the player settings and Addressables link.xml the Windows build wrote; the Board card records the invisible-units fix
+2026-10-04 e2c46d9 chore(build): Addressables content state and build-pipeline settings written by the Windows content build
+2026-10-04 370a3e2 fix(build): player builds rebuild the Addressables content for their own target
+2026-10-04 51980aa fix(build): keep every GPU-instancing shader variant; a VAT clip set that fails to load now says so
+2026-10-03 b0e43cf chore(build): the settings the first Windows player build wrote (batching, URP shader lists, Addressables content state)
+2026-10-03 78bb70c chore(board): the menu / rooms / builds card moves to review with its state
+2026-10-03 22d09f6 chore(approvals): the action bar v7 card with the batch HUD renders
+2026-10-03 9143567 fix(server): the directory publisher avoids PowerShell's reserved $host; the batch HUD review opens a saved scene first
+2026-10-03 4f9c41f feat(ui): the action bar without the fortress HP row; the fortress HP leads the stat bar (HUD v7)
+2026-10-03 617b564 feat(ui): the Multiplayer, Create room, Password and Room screens; MenuController drives rooms
+2026-10-03 140a4f5 chore(tools): record OpenCode service port conflict fix
+2026-10-03 549e772 feat(net): rooms on the dedicated server - a hub of referees, Hello handshake, server directory, player build scripts
+2026-10-03 7877394 docs(art): the Tripo batch log (65 generations) and its Board card
+2026-10-03 6da7d5b chore(board): the Tripo batch card; the balance card carries the early-nerf amendment
+2026-10-03 9ed81f4 docs(balance): the adjusted patch carries Pedro's early-game nerf for Necrotide
+2026-10-03 1abde1d refactor(sim): Necrotide's body percentages can differ before fortress level 2
+2026-10-03 93bc225 docs(balance): the exact edits of every bot-search variant (the provenance the report points to)
+2026-10-03 4afc867 docs(balance): the adjusted balance patch - validated, in Approvals
+2026-10-03 62aa141 test(balance): the adjusted-patch card states bucket counts and Vanguard's shape as under against over 20 minutes
+2026-10-02 d4df9a4 docs(balance): round 6 - the pick is r6-b: the patch's Necrotide, Emberlords and Grove numbers, Vanguard's early numbers, the rank gate, the new plans
+2026-10-02 18213d9 test(balance): validation runs staged for the two likely picks (seeds 40-59, paired with the pending patch's validation)
+2026-10-02 e450435 test(balance): round 6b - r6-a with Necrotide at 85/75
+2026-10-02 50650ba docs(balance): round 5 - Vanguard's numbers are early points, Necrotide's bodies decide whether it reaches its engine
+2026-10-02 23425af test(balance): round 6 - Vanguard's early strength restored with its rank scaling trimmed, Necrotide 80/70, Emberlords +50/20/25, gated ranks
+2026-10-02 9acdbb7 docs(balance): round 4b - gating ranks 3-4 is the structural fix; trimming their payouts is not
+2026-10-02 acf05ea docs(balance): the bot search's reproduction commands cover every stage
+2026-10-02 db3b7e1 test(balance): the Approvals card for the adjusted patch, from the chosen candidate and its validation run
+2026-10-02 ade8423 docs(balance): round 4 - the repository's numbers are as wrong as the patch's, in the other direction
+2026-10-02 c5f1b3f test(balance): round 5 - gated ranks with Necrotide and Emberlords between the repository's numbers and the patch's
+2026-10-02 3766d54 test(balance): the Scrapling cascade as a balance lever; candidates compared in the brief's terms (win rate by match length, out first)
+2026-10-02 a6c88cc test(balance): the search scorer pairs matches by global seed, so a validation on fresh seeds still pairs with its control
+2026-10-02 4671c16 docs(balance): the joint test - the patch is tuned for the wrong bots
+2026-10-02 ea0c0fd test(balance): the balance candidates' data files and the search rounds' run logs
+2026-10-02 f672c5f docs(balance): bot search round 2b - the plans the joint test carries
+2026-10-02 679364f test(balance): the first balance candidates on the new plans - repository numbers, trimmed rank 3-4, gated ranks
+2026-10-02 b87d627 test(balance): the joint test - Grove, Emberlords and Necrotide on their best plans at once, 480 matches
+2026-10-02 35e9b86 docs(balance): bot search round 2 - one research carries each engine, and rank 4 early is a different game
+2026-10-02 9ec307a test(balance): round 2b adds Endless Ranks alone to rank 4, with and without Necrotide's other helpers
+2026-10-02 4badd26 test(balance): a rule candidate - faction research ranks 3 and 4 gated behind fortress levels 2 and 3
+2026-10-02 d2fd678 test(balance): round 2b adds Necrotide's three helpers with both researches to rank 4
+2026-10-02 a780ad2 test(balance): round 2b - Ember Reprisal alone to rank 4, with and without the tower perks
+2026-10-02 0eb8a73 test(balance): balance candidates on the new plans - every rank table as numbers, checked against the pending patch
+2026-10-02 aa6929b test(balance): single faction research to rank 4 early, the families round 2b needs
+2026-10-02 5854c48 docs(balance): the re-balance targets - parity plus Pedro's shape by match length
+2026-10-02 f28fe68 test(balance): win rate by match length - Pedro's shape targets (Necrotide late, Vanguard early)
+2026-10-02 7495ab0 test(balance): the joint test - every faction on its chosen plan at once, with or without the revive rule
+2026-10-02 38c9afe docs(balance): the late plan families help nobody; Vanguard keeps its plan, Grove's heroes later is a wipe-out
+2026-10-02 4705f6a docs(balance): bot search round 1 - two factions had been playing their engines late
+2026-10-02 22385f9 test(balance): round 2 composes helpers (pairs and all together); a lone helper is confirmed at 480
+2026-10-02 ad3a6f8 test(balance): the late families run for Grove and Vanguard only; Emberlords and Necrotide found their engines early
+2026-10-02 033a5fd test(balance): round 2 composes the best helper with each other helper; a lean (low end above -3) counts
+2026-10-02 549cff3 test(balance): round 2 decomposes a faction-research move that helped (rank 4, each research alone)
+2026-10-02 2f948bc test(balance): the late plan families for Grove, Emberlords and Necrotide, chained after Vanguard's
+2026-10-02 4e3e69e test(balance): round 2 selection (same rule for every faction) and Vanguard's late families
+2026-10-01 74e94c3 test(balance): the mirror 'late' plan families, ready for a faction whose early moves all hurt
+2026-10-01 ab5226c docs(balance): bot search report skeleton, the control's purchase timeline, the revive-delay family
+2026-10-01 bf5a8a1 test(balance): the bot playstyle search - plan mutations, a resumable driver, timelines
+2026-10-01 cf148c4 chore(approvals): Pedro's decisions - the balance patch is 'adjust', Emberfall keeps 1,500 mana
+2026-10-01 05bb694 chore(approvals): queue the Emberfall mana decision; board cards updated
+2026-10-01 f5ea883 docs(balance): Vulmar's Emberfall mana, measured at 1,500, 1,000 and 750
+2026-10-01 656e6eb test(balance): the FFA suite logs every hero's main-skill casts and deaths
+2026-10-01 cb63e98 fix(editor): the faction authoring tool leaves the playable four alone; the spec row follows the game
+2026-10-01 6d20776 chore(approvals): queue the FFA balance patch decision; the suite's card goes to review
+2026-10-01 e13617d docs(balance): the four-player FFA suite report and a patch for approval
+2026-10-01 f2e8c7a test(balance): FFA suite patches can add burn passives
+2026-10-01 1ee0ce9 fix(ai): the Hard bot aims only at enemies it can see (build 36)
+2026-10-01 a236d23 test(balance): the four-player FFA suite with per-faction and per-building logs
+2026-10-01 43dd8ef chore(board): the hero lane cooldown is decided (4 minutes, build 35)
+2026-10-01 4eb592d feat(balance): the hero lane cooldown is 4 minutes (build 35)
+2026-10-01 c9bbbe9 chore(approvals): queue the base layout and tooltip reviews; log the work on the board
+2026-10-01 8b56fed docs: hero lane cooldown, spawn behind, targeting, base layout v2
+2026-10-01 90bba5c feat(ui): fortress, tower perk and faction engine tooltips; Shift shows details
+2026-10-01 6ef3088 feat(ui): show the hero lane cooldown
+2026-10-01 6cdcd2e fix(ui): building health bars use the level-aware maximum HP
+2026-10-01 402369d feat(sim): hero lane cooldown, spawn behind a barracks under attack, units keep their targets, wider bases (build 34)
+2026-09-30 2d3df12 chore(approvals): the FFA target on the neutral retune and its Board cards
+2026-09-30 ec561e5 docs(balance): the FFA target for a neutral special
+2026-09-30 6aeb52a chore(approvals): record the neutral decisions and what came of them; log the bots on the board
+2026-09-30 b733f74 docs(balance): the bot audit, the planning bots and their smoke checks
+2026-09-30 03403ed test(balance): bot trace, Hard bots and FFA-only neutral readings
+2026-09-30 b200b5a feat(ai): per-faction planning bots and four difficulty levels
+2026-09-30 7d1716f feat(balance): the Lumber Mill repairs a little faster
+2026-09-30 e580766 chore(approvals): queue the neutral balance review and three redesigns; log it on the board
+2026-09-30 6228d38 docs(balance): neutral specials - correctness, measurement, build 32 sizes
+2026-09-30 2ca7097 feat(balance): neutral specials the 192-match validation put outside the band
+2026-09-30 2987cf1 feat(balance): size the neutral specials with the harness; exact Armory
+2026-09-30 e0b7933 test(balance): --first extends a neutral-experiment run instead of repeating it
+2026-09-30 8dc2323 test(balance): dose overrides and a duel read-out in the neutral experiment
+2026-09-30 484d982 test(balance): cap the neutral experiment's parallel matches (--threads)
+2026-09-30 44ec089 test(balance): neutral-specials experiment in the balance harness
+2026-09-30 3802bb1 chore(wiki): export build 30 definitions
+2026-09-30 1f13afd test(tools): neutralcheck - every special, every faction, every unit
+2026-09-30 5a5b349 fix(sim): neutral specials reach every unit, exactly
+2026-09-30 73df6c7 chore(approvals): mark the neutral specials installed in build 29; log it on the board
+2026-09-30 1b891b2 chore(wiki): export build 29 definitions
+2026-09-30 2cc6284 docs(spec): neutral buildings - the fair deal and the twelve specials
+2026-09-30 5b2a981 feat(ui): show the dealt neutral buildings and their specials
+2026-09-30 12fa376 feat(sim): neutral building specials and the fair deal
+2026-09-30 8737784 chore(approvals): neutral building effects proposal, approved
+2026-09-30 b90d191 chore(board): note the waypoint fix and the Unity suite results
+2026-09-30 b3ee47c fix(sim): judge 'past the waypoint' along the incoming segment
+2026-09-30 97c556c chore(approvals): queue building footprints and the new menus; log the round on the board
+2026-09-30 f56f08c chore(server): EC2 test server scripts - setup, deploy, start, stop, logs
+2026-09-30 fa6a82f feat(server): run as a service, with log files and an idle exit
+2026-09-30 a928c79 feat(net): log hooks on the referee and the TCP server transport
+2026-09-29 01cfe7f feat(ui): title screen, settings and custom game menus
+2026-09-29 5ee7b15 feat(game): a version players can see - Alpha 0.1.0, build 28
+2026-09-29 d514d8d feat(sim): every structure blocks, one footprint per building kind
+2026-09-29 c70caaf feat(sim): waves leave the barracks one unit at a time, in single file
+2026-09-29 eb39a76 fix(presentation): stop fortress spell FX erroring on mixed velocity curve modes
+2026-09-29 9c67602 chore(board): log round 3 of the Raven HUD work
+2026-09-29 b8bfc15 chore(approvals): queue round 3 of the Raven HUD review
+2026-09-29 f84b119 docs(hud): v6 - adaptive action bar, always-on card, text and tooltips
+2026-09-29 3275d8a fix(ui): drop spec and dev-menu references from player text
+2026-09-29 763b9a8 feat(ui): concise tooltips with rank tables and marked active skills
+2026-09-29 fe92fa0 feat(ui): fit the action bar to the realm's abilities, keep the command card up
+2026-09-29 f3f524a feat(ui): show skills, spells, heroes and research as tooltip cards
+2026-09-29 f80d735 feat(ui): colour and icon every damage class in rich text
+2026-09-29 5467156 fix(ui): keep the no-skin text face out of TMP's saved fallback
+2026-09-29 6e34c3b feat(ui): make HUD text readable at 1080p
+2026-09-29 29507b4 refactor(ui): draw every HUD and menu label with TextMeshPro
+2026-09-29 7ff6acf chore(ui): import the TextMeshPro essential resources
+2026-09-29 6e372f6 fix(presentation): stop fortress spell effects crashing the skill FX draw
+2026-09-29 4b53afc chore(approvals): queue round 2 of the Raven HUD review
+2026-09-29 130f988 fix(ui): keep the war's feed, banners and scoreboard visible to spectators
+2026-09-29 3732eea docs(hud): record the v5 layout in the Raven kit's composition
+2026-09-29 f9a070d feat(presentation): draw the floating health bars in the Raven kit's art
+2026-09-29 edeec48 feat(ui): rebuild the menus in uGUI with the Raven kit art
+2026-09-29 be27faf feat(ui): show the war's feed, banners and scoreboard in the Raven kit art
+2026-09-29 5044bfb feat(ui): rebuild the HUD on the Raven kit's own layout
+2026-09-29 a806988 refactor(ui): move the shared uGUI builders into HudWidgets
+2026-09-29 2d45f85 chore(board): close the Pipeline upgrade card
+2026-09-29 ee26952 chore(approvals): queue the Raven HUD skin review
+2026-09-29 65eb67c chore(wiki): export build 27 definitions
+2026-09-29 7cbabc2 fix(data): describe the Living Slag Guard cap in the Ashcrown asset
+2026-09-29 feb2758 docs(hud): record the Raven skin contract
+2026-09-29 3b6d39e feat(editor): render the HUD flat and skinned for review
+2026-09-29 a9238c0 art(ui): wire the Raven MOBA UI kit into the HUD
+2026-09-29 5e6c60c feat(ui): load HUD chrome from a HudSkin asset
+2026-09-29 4c3aa24 chore(board): close B3 at build 27
+2026-09-29 adfc209 docs(balance): record the build 27 Thronefire threshold screens and validation
+2026-09-29 914345f feat(balance): trigger baseline Thronefire every 16% of building HP
+2026-09-29 118f64c docs(balance): record the B3 proposal, screens and 960-game validation
+2026-09-29 798b14a feat(balance): install the B3 faction amendments
+2026-09-28 74bc749 chore(board): track the B3 balance screens
+2026-09-28 7684786 feat(tools): local sim runner with pause, stop and CPU/RAM limits
+2026-09-28 0fafdc3 chore(board): close the West-lead hunt at the rounding fix
+2026-09-28 b9ca43b docs(balance): trace West's remaining lead to floor rounding
+2026-09-28 2d504b6 chore(deps): upgrade com.unity.pipeline to 0.8.0-exp.1
+2026-09-28 ab14a0b fix(sim): round fixed-point products toward zero
+2026-09-28 ad741b6 chore(board): close the seat-bias investigation and record what stays open
+2026-09-28 245aab7 docs(balance): measure the random grid walk in both map orientations
+2026-09-28 8b2ac18 test(sim): pin the militia roll in the shred amplification test
+2026-09-28 69e56ec fix(sim): draw the spatial-grid scan order from the sim RNG
+2026-09-28 94d3c81 docs(balance): measure the seat fixes and the Living Slag cap in full games
+2026-09-28 e8f457a fix(sim): hold Living Slag to one guard per position
+2026-09-28 d70b3f1 fix(sim): lay gameplay offsets out in each owner's frame
+2026-09-28 2c49b78 docs(balance): keep the stopped spatial-scan run and correct the watchpost note
+2026-09-28 6f39f6c chore(board): record seat-bias, effect-pool and test-runner findings
+2026-09-28 e2618fa docs(balance): locate the full-game seat edge at the North position
+2026-09-28 5f3535c docs(balance): measure build 21 across the fortress validation seeds
+2026-09-28 94ec4e8 docs(balance): trace the seat advantage and the full effect pool
+2026-09-28 df60202 fix(ai): give every bot seat the same cadence phase
+2026-09-27 2f4afc5 docs(balance): record fortress validation across 480 fresh matches
+2026-09-27 8999d14 test(sim): verify full fortress pools reject without spending mana
+2026-09-27 1c373c6 fix(presentation): preserve sentry identity and skip null-device effects
+2026-09-27 457645b feat(presentation): bind approved fortress effects and faction spell HUD
+2026-09-27 07bd1a6 test(sim): isolate caster mending from production and regeneration
+2026-09-27 d2fb02c perf(sim): compact ghost target queries without changing results
+2026-09-27 32a0b16 fix(ai): reserve mana for the next useful fortress spell
+2026-09-27 ff2c48f feat(sim): install approved faction fortress spells and B2 tuning
+2026-09-27 5c63a79 art(spells): enrich healing and settle arrow rain on the ground
+2026-09-27 a7278e7 art(spells): revise effects and add Tripo guardian meshes
+2026-09-27 7ce63bd docs(balance): record accepted fortress rules and Thronefire floor
+2026-09-27 7639ec2 art(spells): create faction fortress effects and review previews
+2026-09-27 d612cae docs(design): review faction fortress spells and balance amendments
+2026-09-27 50c1c1e docs(balance): propose the next four-faction balance candidate
+2026-09-27 ed10209 docs(balance): record build-17 win rates across 400 matches
+2026-09-26 2e33535 feat(balance): apply approved faction tuning and finalize art approvals
+2026-09-26 c520173 feat(wiki): add faction compendiums and publish balance and art reviews
+2026-09-26 63ec346 feat(grove): add five-second Heartseed revival and animated seed shells
+2026-09-26 9adf4ee fix(ui): remove animated gold rewards and use resource cutouts
+2026-09-26 a9cd05f docs(balance): verify Cursor audit against saved match results
+2026-09-23 94e19ac fix(sim): keep snapshot resume in lockstep with live casts
+2026-09-23 a0d726e docs(balance): record the bot harness audit and snapshot fix proposal on the Board
+2026-09-23 d65753d feat(tools): update the balance harness for champions and the playable roster
+2026-09-23 7f5d4c2 docs(platform): assess Apple Silicon development readiness
+2026-09-23 a22f7c3 docs(backup): record verified recovery and 50 GiB storage reduction
+2026-09-23 182ecfa fix(art): preserve additive sparks through material reimport
