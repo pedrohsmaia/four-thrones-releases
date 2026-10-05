@@ -25,3 +25,43 @@ a shot: judges must see the features working, not a montage.
 - Keep the cursor visible; it is the walkthrough's pointer.
 - Export as MP4 (H.264, 1080p); the submission form takes a link, so upload to YouTube
   (unlisted) or Drive and paste the link.
+
+
+## As produced, 2026-10-05: `hackathon/video/walkthrough.mp4` (1:45, 1920 x 1080, 30 fps, voiceover)
+
+Not recorded by hand: the player records it. `FourThrones.exe -ft-walkthrough <dir>` (WalkthroughRecorder.cs)
+plays the title over the backdrop war, the Multiplayer and Create Room screens, Match Setup with the faction
+card changing, then a match with every seat a Hard bot while the camera follows a script: the base at 30
+seconds, the first wave down the lane, the first hero (selected, its card on the bar), the fortress and its
+spells, the superweapon (the runner's dev free-fire switch arms seat 0's so it fires on camera), and the
+whole map from above. Frames are JPGs at 30 frames per second of game time; `make_walkthrough.py` lays the
+seven voiceover lines (edge-tts, Christopher) at their shots and muxes the MP4. The game's own sound is not
+in the video; the narration is the only audio.
+
+| Shot | Time |
+|---|---|
+| title | 0.0 to 9.5 s |
+| multiplayer | 9.5 to 18.5 s |
+| createroom | 18.5 to 26.5 s |
+| setup | 26.5 to 29.5 s |
+| setup_cycle1 | 29.5 to 32.5 s |
+| setup_cycle2 | 32.5 to 35.5 s |
+| setup_cycle0 | 35.5 to 39.5 s |
+| setup_diff | 39.5 to 41.5 s |
+| base | 41.5 to 46.5 s |
+| base_pan | 46.5 to 53.5 s |
+| lane | 53.5 to 61.5 s |
+| hero | 61.5 to 73.5 s |
+| fortress | 73.5 to 81.5 s |
+| super | 81.5 to 95.5 s |
+| overview | 95.5 to 105.5 s |
+
+| Line | Narration |
+|---|---|
+| title | This is Four Thrones, a four-player free-for-all auto-battler. My gift for RTS and auto-battler fans. |
+| multiplayer | Play against bots, or online. Multiplayer runs on a dedicated referee server: create a public or private room, add bots to the empty seats, share the room code with friends, and the server runs the same simulation for everyone. |
+| setup | In Match Setup you pick your faction and the bots' difficulty. Four factions, each with its own engine. The card shows the passive, the three heroes, the unique unit and the superweapon. |
+| base | You build and upgrade; your army marches and fights on its own. Every match is one deterministic simulation: the same seed and the same commands give the same war, so replays, saves and multiplayer are one mechanism. |
+| hero | Heroes are hired at the fortress and level up in the lane. Fortress spells spend the fortress's own mana. Everything in the world, from the buildings to the units, was modelled with Tripo and painted by hand. |
+| super | At fortress level three each faction unlocks its superweapon. Time it right, and it ends a base. |
+| overview | Four thrones on the corners of one map, one left standing. Thank you for playing. |

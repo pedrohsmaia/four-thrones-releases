@@ -58,7 +58,7 @@ The world was built with Tripo. Every faction building and every unit mesh came 
   7. `hackathon/board/12_hud_hero_selected.jpg`: key frame, a hero selected: its card and the research in progress.
   8. `hackathon/board/06_units_multiview.jpg`: multi-view, the four unique units and four heroes from two angles, rendered from the shipped models (2560 x 2720, two units per row at full height).
   Spares in `hackathon/board/`: the south-west corner (a neutral site and a marching column), the south edge (a second base), the fortress selection, the scoreboard, the victory screen, the title screen. There are no turntable GIFs.
-- **Video:** the walkthrough link [URL] (VIDEO_SCRIPT.md).
+- **Video:** `hackathon/video/walkthrough.mp4` (1:45, 1080p, voiceover; how it was made is in VIDEO_SCRIPT.md). Public copy: https://github.com/pedrohsmaia/four-thrones-releases/releases/download/v0.1.0-build37/walkthrough.mp4 (a direct download). If the form wants a page that plays, upload the same file to YouTube as unlisted and paste that link instead.
 - **Demo:** the playable builds (Windows x64 and macOS zips):
   https://github.com/pedrohsmaia/four-thrones-releases/releases/tag/v0.1.0-build37
 - Repository link, if the form offers one: https://github.com/pedrohsmaia/four-thrones-releases

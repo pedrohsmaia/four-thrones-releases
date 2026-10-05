@@ -7,6 +7,10 @@ A four-player free-for-all auto-battler RTS in the Survival Chaos lineage: you b
 - **Windows x64**: unzip `FourThrones-build37-Windows-x64.zip`, run `FourThrones/FourThrones.exe`. This build passed its own self-check (the player starts a match, units load and draw) before it was published.
 - **macOS (Universal)**: unzip `FourThrones-build37-macOS-universal.zip`, then in Terminal run `xattr -cr FourThrones.app` once (the app is unsigned) and open it. Built on Windows with the Mac Build Support module; not yet verified on a Mac.
 
+### Walkthrough
+
+`walkthrough.mp4` (1:45, 1080p, narrated) is attached to this release: the menus, a match with four Hard bots on a scripted camera, a hero, a fortress spell, a superweapon, the whole map.
+
 ### Playing
 
 - **Play** opens Match Setup: click a faction button to cycle factions; the card beside the box shows that faction's engine, heroes, unique unit, superweapon, researches and troops. Set the bots' difficulties and start.

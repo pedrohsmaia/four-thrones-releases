@@ -6,6 +6,7 @@ Published for the Tripothon S1 hackathon. The game's source is kept in a private
 repository; this one holds only the release package.
 
 - **Download:** the Releases page, `v0.1.0-build37` (Windows x64 and macOS Universal zips).
+- **Walkthrough video (1:45):** `walkthrough.mp4` on the release, narrated, recorded from the player itself.
 - **Release notes and how to play:** [RELEASE.md](RELEASE.md).
 - **Hackathon package:** [hackathon/](hackathon/): the submission texts, the conformity
   check against the handbook, the Tripo usage evidence and the walkthrough script.
