@@ -1,3 +1,50 @@
+2026-10-05 2714131 docs(hackathon): the walkthrough's second cut explains the map, the bases, upgrades, units and heroes
+2026-10-05 6395f10 chore(board): the walkthrough video and the mid-match board frames
+2026-10-05 d5f4a22 docs(hackathon): the walkthrough video, recorded by the player and narrated
+2026-10-05 c58cf70 feat(build): the player records the hackathon walkthrough on a scripted camera
+2026-10-05 9e80eb2 docs(hackathon): the board frames come from a running match, bases and armies in every scene
+2026-10-05 4ef2f1b feat(build): the self-check can hold its capture to a tick and lift its eye for review frames
+2026-10-05 a00e0e3 chore(build): the Addressables content state the 37d player builds wrote after the Vulmar cleanup
+2026-10-05 1ae1099 docs(hackathon): the board sheet gives every unit its full height; Vulmar's wings no longer shrink him
+2026-10-05 ca9d527 docs(hackathon): Vulmar larger on the cover
+2026-10-05 ad93d61 chore(board): the old Vulmar removal and the re-rendered cover
+2026-10-05 25c3d79 docs(hackathon): the cover and the board sheet show the live Vulmar; the renderer frames from the vertices
+2026-10-05 18b9f9e chore(art): the old Vulmar leaves the game; the v3b set is the only one
+2026-10-05 370015f docs(hackathon): the visual asset board is eight images, with a multi-view sheet of the shipped units
+2026-10-05 8448311 docs(hackathon): cover lineup swapped, the tower left and the treant right, Aldric shield-forward
+2026-10-05 4a429cd docs(hackathon): the gift line comes off the cover image
+2026-10-04 b66f91f docs(hackathon): Aldric stands with the sword raised on the cover
+2026-10-04 6590115 chore(board): the cover is rendered from the shipped models
+2026-10-04 3d448aa docs(hackathon): the cover shows the shipped models themselves, rendered headlessly
+2026-10-04 cbf42b8 chore(board): the Tripothon card records the water, hosting and sting decisions and the 37c rebuild
+2026-10-04 9248082 docs(hackathon): the public release home is the releases-only repository
+2026-10-04 cfca40e chore(water): the pack-water attempt is parked with its evidence; the custom shader ships
+2026-10-04 023ac93 chore(board): the Tripothon card carries the cover, sound, water and hosting state
+2026-10-04 46babf6 feat(build): the self-check can aim its camera and size the frame it writes
+2026-10-04 42321d0 docs(hackathon): the cover shows the four unique units that actually ship
+2026-10-04 7b3476f chore(audio): effects only, no music (Pedro); the loop layers stay in the synth behind --music
+2026-10-04 1707b55 docs(hackathon): the source repository stays private; the release needs its own public home
+2026-10-04 84dee85 docs(hackathon): the disclosure names the pack water and the synthesized audio
+2026-10-04 403c8a1 chore(audio): the Resources/Audio folder meta
+2026-10-04 78b5f47 feat(audio): the first sound pass, synthesized and loaded by convention
+2026-10-04 c02c876 docs(hackathon): the cover image in the media step
+2026-10-04 8a0399d docs(hackathon): a 16:9 cover image for the portal
+2026-10-04 0a94d4e docs(hackathon): the description fits the portal's 2,000 characters
+2026-10-04 3f518f7 docs(hackathon): the tagline fits the portal's 100 characters
+2026-10-04 28aebf0 docs(hackathon): the submission portal, its five steps, the exact deadline and the disclosures
+2026-10-04 db1f063 docs(hackathon): the gift line is "A gift for RTS and auto-battler fans"
+2026-10-04 c953623 docs(hackathon): the gift line is "A gift for classic RTS custom-map fans"
+2026-10-04 fcdc7c2 chore(board): the hackathon card carries the final gift line
+2026-10-04 44298c9 docs(hackathon): the gift line is "A gift for the custom-map nights"
+2026-10-04 9d0b321 chore(approvals): the protection spells' visibility card, with every spell and superweapon rendered
+2026-10-04 d251c53 fix(presentation): the three protection spells play their approved cast effect
+2026-10-04 14e6738 feat(editor): the fortress spell review renders every spell and superweapon headlessly
+2026-10-04 ced631a fix(presentation): effects do not outlive their world
+2026-10-04 e4abc39 chore(board): the hackathon card records the gift line, the release branch and what Pedro must flip
+2026-10-04 80c9924 docs(hackathon): the gift line, the release link and the remaining steps
+2026-10-04 3617951 chore(board): the plaza revision card, the installed patch, the hackathon card
+2026-10-04 5a27e0c docs(hackathon): the Tripothon S1 package
+2026-10-04 78ba046 feat(ui): the faction card beside Match Setup and the Room
 2026-10-04 4dfdbb3 chore(balance): the regeneration builds its variants from the build-36 sim
 2026-10-04 51cf524 chore(editor): the batch verify exports the wiki too
 2026-10-04 e0eb64e fix(map): the plaza ring overlay is gone

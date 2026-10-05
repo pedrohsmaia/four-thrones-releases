@@ -72,33 +72,13 @@ Tripo API, from painted references; 65 further generations on October 3. The pip
 reference, Tripo mesh, retopology and texture, Blender rig, vertex-animation bake, in-game
 review."
 
-**Third-party disclosure (paste):**
+**Third-party disclosure (paste, 816 characters):**
 
-> Engine: Unity 6 (URP). Tools: Blender; Tripo and Unity AI generators (all 3D meshes and
-> textures under Resources/GenProps, outputs ours under Unity's AI terms); Uthana (motion
-> generation); Mixamo (13 animation clips, Adobe's Mixamo license); image generation for
-> the icons and reference paintings (Nano Banana Pro, FLUX Klein), with a procedural icon
-> frame drawn in code. Purchased assets: the Raven MOBA UI kit (HUD and menus) and the
-> water surface shader and material of Synty Studios' POLYGON Nature Biomes. Font: DejaVu
-> Sans (free license). Audio: every sound effect is synthesized in-house with numpy (no music, no
-> third-party audio). Claude Code was used as a coding assistant.
+> Engine: Unity 6 (URP). 3D: Tripo, through Unity's AI generators and the Tripo API, made the buildings, units and props from our own painted references; Blender for rigging; Uthana for motion generation; Mixamo (13 animation clips, Adobe Mixamo license). Images: Nano Banana Pro for textures, icons and reference paintings (FLUX Klein for drafts), with the icon frame drawn in code. Purchased: the Raven MOBA UI kit (HUD and menus) with its PT Serif and PT Sans fonts (SIL Open Font License); DejaVu Sans (free license) as the fallback font. Audio: every sound effect is synthesized in-house (numpy); no music, no third-party audio. The walkthrough video's narration is a Microsoft neural voice (edge-tts). Claude Code was used as a coding and pipeline assistant. No Synty or other store 3D assets ship in this build.
 
-**Prior-work declaration (paste):**
+**Prior-work declaration (paste, 1019 characters):**
 
-> Four Thrones is a pre-existing project: development started on 2026-07-02, and by
-> September 14 the deterministic simulation, the map, the four factions' basic units
-> and buildings, the bot opponents and a first HUD existed. I declare it as secondary
-> development. Everything below was built between September 15 and October 5, 2026
-> (199 commits, listed in increment-commits.txt): the hero skill kits and the champion
-> system (17 skills, ranked), the twelve fortress spells (three per faction), the
-> Necrotide horde engine, the Raven HUD skin with the new action bar, tooltips and
-> cards, the main menu, settings, match setup with the faction card, the rooms
-> multiplayer on a dedicated EC2 referee server with a public server directory, the
-> Windows and macOS builds with a build-time self-check, the FFA balance suite (over
-> 10,000 simulated matches) and the adjusted balance patch of build 37, the unit and
-> building regeneration with Tripo, and the Tripo studio batch of October 3. Open-source
-> and AI tools used: Unity 6, Blender, Tripo, Unity AI generators, Uthana motion
-> generation, Claude Code as a coding assistant.
+> Four Thrones is a pre-existing project (secondary development). Work started on 2026-07-02; by September 14 there were the deterministic simulation, the map, the four factions' basic units and buildings, bot opponents and a first HUD. Added between September 15 and October 5, 2026 (246 commits, listed in increment-commits.txt): the hero skill kits and the champion system (17 skills, ranked), the twelve fortress spells, the Necrotide horde engine, the Raven HUD skin with the new action bar, tooltips and cards, the main menu, settings and match setup with the faction card, rooms multiplayer on a dedicated referee server with a public server directory, Windows and macOS builds with a build-time self-check, the FFA balance suite (over 10,000 simulated matches) and build 37's balance patch, the unit and building regeneration with Tripo and the Tripo studio batch of October 3, the sound effects, the cover and asset board rendered from the shipped models, and the walkthrough video recorded by the player itself.
 
 **Rights:** accept (IP stays with the author; Tripo gets a non-exclusive promotional license).
 
