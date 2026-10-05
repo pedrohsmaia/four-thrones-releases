@@ -47,7 +47,7 @@ The world was built with Tripo. Every faction building and every unit mesh came 
 
 ## Step 3, Media and Demo
 
-- **Cover:** `hackathon/cover.jpg` (1920 x 1080, 0.5 MB). The four unique units that ship, painted from the references their meshes were generated from (Elderroot, Ashcrown Pyre Titan, Cannon Siege Tower, Blight Bombard), over the plaza render, with the title, the one-line pitch, the gift line and the four crests. Rebuilt by `scratchpad/cover/make_cover.py` (session scratch); the two early concepts that never shipped (the bone wyvern and the stone gargoyle) are deliberately not on it.
+- **Cover:** `hackathon/cover.jpg` (1920 x 1080, 0.5 MB). The shipped models themselves, rendered from their VAT clip sets with the in-game material (Editor/CoverRender.cs, transparent background): Elderroot, the Ashcrown Pyre Titan mid-swing, the Cannon Siege Tower, the Blight Bombard, Aldric lunging, Vulmar airborne; over the plaza render, with the title, the one-line pitch, the gift line and the four crests. Pedro's rule for this image: the units as they are in the game, not their paintings. Composed by `scratchpad/cover/make_cover_v3.py` (session scratch).
 - **Stills:** the rest of `hackathon/board/` (world overview, harbour, corner, HUD in play,
   fortress and hero selections, scoreboard, victory) and the building turntable GIFs.
 - **Video:** the walkthrough link [URL] (VIDEO_SCRIPT.md).
