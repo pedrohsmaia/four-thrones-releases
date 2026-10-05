@@ -48,16 +48,16 @@ The world was built with Tripo. Every faction building and every unit mesh came 
 ## Step 3, Media and Demo
 
 - **Cover:** `hackathon/cover.jpg` (1920 x 1080, 0.5 MB). The shipped models themselves, rendered from their VAT clip sets with the in-game material (Editor/CoverRender.cs, transparent background): Elderroot, the Ashcrown Pyre Titan mid-swing, the Cannon Siege Tower, the Blight Bombard, Aldric with the sword raised, Vulmar airborne; over the plaza render, with the title, the one-line pitch and the four crests (the gift line is not on the image, Pedro 2026-10-05; it stays in the tagline, the description and the video). Pedro's rule for this image: the units as they are in the game, not their paintings. Composed by `scratchpad/cover/make_cover_v3.py` (session scratch).
-- **Visual asset board (the form takes 3 to 8, upload these 8 in this order):**
+- **Visual asset board (the form takes 3 to 8, upload these 8 in this order):** every frame below is the real player mid-match (bases, towers, barracks, armies), captured through the build's own self-check camera at 1920 x 1080; the HUD stills are the Raven HUD over the Emberlords base.
   1. `hackathon/cover.jpg`: key art, the shipped models over the plaza (1920 x 1080).
-  2. `hackathon/board/01_world_overview.jpg`: environment, the whole map from above (1600 x 900).
-  3. `hackathon/board/02_plaza_centre.jpg`: environment, the central plaza at gameplay zoom (1600 x 900).
-  4. `hackathon/board/03_harbour.jpg`: environment, the harbour arm with the ship and the pier (1600 x 900).
-  5. `hackathon/board/10_hud_in_play.jpg`: key frame, a match in play with the HUD (1920 x 1080).
-  6. `hackathon/board/12_hud_hero_selected.jpg`: key frame, a hero selected, its card and skills (1920 x 1080).
-  7. `hackathon/board/14_victory.jpg`: key frame, the end of a match (1920 x 1080).
+  2. `hackathon/board/01_world_overview.jpg`: environment, the whole map at 90 seconds: four bases, the river, the harbour, the neutral sites, the first armies on the lanes.
+  3. `hackathon/board/07_emberlords_base.jpg`: environment, the Emberlords base at gameplay zoom: fortress, two towers, three barracks.
+  4. `hackathon/board/02_plaza_centre.jpg`: key frame, four armies clashing on the central plaza at two minutes.
+  5. `hackathon/board/03_harbour.jpg`: environment, the harbour arm with the ship, the pier and a column marching past.
+  6. `hackathon/board/10_hud_in_play.jpg`: key frame, the HUD in play over the base (bases panel, minimap, action bar).
+  7. `hackathon/board/12_hud_hero_selected.jpg`: key frame, a hero selected: its card and the research in progress.
   8. `hackathon/board/06_units_multiview.jpg`: multi-view, the four unique units and four heroes from two angles, rendered from the shipped models (2560 x 2720, two units per row at full height).
-  Spares in `hackathon/board/`: the corner and south-edge environment frames, the fortress selection, the scoreboard, the title screen. There are no turntable GIFs.
+  Spares in `hackathon/board/`: the south-west corner (a neutral site and a marching column), the south edge (a second base), the fortress selection, the scoreboard, the victory screen, the title screen. There are no turntable GIFs.
 - **Video:** the walkthrough link [URL] (VIDEO_SCRIPT.md).
 - **Demo:** the playable builds (Windows x64 and macOS zips):
   https://github.com/pedrohsmaia/four-thrones-releases/releases/tag/v0.1.0-build37
